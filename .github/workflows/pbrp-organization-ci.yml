@@ -23,6 +23,8 @@ env:
   SFUserName: ${{ secrets.SFUserName }}
   TARGET: "pbrp"
   #EXTRA_CMD: "Extra Commands Here"
+  USE_SECRET_BOOTABLE: true
+  SECRET_BR: android-11.0
 
 jobs:
   PBRP_CI:
