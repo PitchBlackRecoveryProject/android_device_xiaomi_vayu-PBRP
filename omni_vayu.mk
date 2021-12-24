@@ -21,14 +21,14 @@ DEVICE_PATH := device/xiaomi/vayu
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vayu
-PRODUCT_NAME := twrp_vayu
+PRODUCT_NAME := omni_vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2102J20SG
 PRODUCT_MANUFACTURER := Xiaomi

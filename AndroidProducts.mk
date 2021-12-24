@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_vayu.mk
+    $(LOCAL_DIR)/omni_vayu.mk
 
-COMMON_LUNCH_CHOICES := twrp_vayu-eng
+COMMON_LUNCH_CHOICES := omni_vayu-eng
