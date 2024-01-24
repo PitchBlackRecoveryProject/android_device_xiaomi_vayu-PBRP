@@ -114,4 +114,4 @@ BOARD_USES_METADATA_PARTITION := true
 # PBRP specific build flags
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
-
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
